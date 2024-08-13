@@ -57,4 +57,29 @@
     padding: 15px 22px;
     font-size: 12px;
   }
+  /* gamer section responsive  */
+  .gamer-section-main {
+    background: none;
+  }
+  .gamer-section-container {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .gamer-left-content {
+    width: 100%;
+  }
+  .gamer-left-content img {
+    width: 100%;
+  }
+  .gamer-right-content {
+    width: 90%;
+    text-align: center;
+  }
+  .gamer-right-content h3 {
+    font-size: 2rem;
+  }
+
+  .gamer-right-content button {
+    margin-bottom: 30px;
+  }
 }

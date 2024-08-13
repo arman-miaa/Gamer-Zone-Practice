@@ -2,8 +2,8 @@
 @media screen and (max-width: 576px) {
   /* navber responsive */
   .nav-main {
-  box-shadow:none;
-}
+    box-shadow: none;
+  }
   .nav-container {
     flex-direction: column;
     justify-content: center;
@@ -17,5 +17,43 @@
   }
   .nab-btn {
     margin-top: 20px;
+  }
+  /* banner section responsive */
+  .banner-main {
+    background-image: none;
+  }
+  .banner-section-container {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .right-site-content {
+    width: 80%;
+  }
+
+  .left-site-conent {
+    width: 100%;
+    padding: 45px;
+    background-image: url("../images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .left-site-conent h1 {
+    font-size: 2.25rem;
+    line-height: 30px;
+  }
+  .left-site-conent h2 {
+    font-size: 4rem;
+    line-height: 80px;
+  }
+  .left-site-conent p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .banner-btn button {
+    padding: 15px 27px;
+    font-size: 14px;
   }
 }

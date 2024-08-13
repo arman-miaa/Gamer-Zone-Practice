@@ -65,7 +65,7 @@ body {
 .banner-section-container {
   width: 80%;
   margin: 0 auto;
-  height: 700px;
+  height:80vh;
   display: flex;
   justify-content: space-between;
   align-items: center;

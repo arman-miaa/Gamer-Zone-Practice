@@ -56,3 +56,66 @@ body {
   color: red;
   margin: 0px 10px;
 }
+
+/* banner section style */
+.banner-main {
+    background-image: url("../images/Group\ 14.png");
+    background-repeat: no-repeat;
+}
+.banner-section-container {
+  width: 80%;
+  margin: 0 auto;
+  /* height: 700px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.left-site-conent {
+  width: 50%;
+}
+.left-site-conent h1 {
+    font-size: 48px;
+font-weight: 600;
+line-height: 56px;
+}
+.left-site-conent h2 {
+    background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    background-clip: text;
+    color: transparent;
+    font-size: 6rem;
+font-weight: 800;
+line-height: 111px;
+}
+.left-site-conent p {
+    font-size: 20px;
+font-weight: 500;
+line-height: 23px;
+margin-top: 17px;
+}
+.banner-btn {
+    margin-top: 30px;
+}
+.banner-btn button {
+    border-radius: 48px;
+background: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%,rgb(255, 66, 165) 87.942%);
+padding: 21px 40px 21px 40px;
+border: none;
+font-size: 20px;
+font-weight: 600;
+color: white;
+}
+.banner-btn button:last-child {
+background: rgb(78, 197, 247);
+
+text-transform: uppercase;
+}
+.right-site-content {
+  width: 50%;
+}
+
+.right-site-content img {
+  width: 100%;
+  height: 100%;
+}

@@ -64,6 +64,7 @@
   .gamer-section-container {
 flex-direction: column;
 margin-top: 30px;
+height: auto;
 }
 .gamer-left-content {
   width: 100%;
@@ -83,6 +84,27 @@ font-size: 2rem;
 
 .gamer-right-content button {
   margin-bottom: 30px;
+}
+/* video section mobile responsive */
+.video-title-des-content {
+  width: 100%;
+  margin-top: 40px;
+}
+.video-title-des-content h3 {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+.video-title-des-content p {
+  font-size: 12px;
+ 
+}
+.video-card-container {
+ flex-direction: column;
+ border: 2px solid green;
+}
+.video-card p { 
+  font-size: 12px;
+  text-align: center;
 }
 
 }

@@ -1,0 +1,21 @@
+/* mobile responsive design here */
+@media screen and (max-width: 576px) {
+  /* navber responsive */
+  .nav-main {
+  box-shadow:none;
+}
+  .nav-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .nav-left-content {
+    flex-direction: column;
+  }
+  .nav-right-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .nab-btn {
+    margin-top: 20px;
+  }
+}
